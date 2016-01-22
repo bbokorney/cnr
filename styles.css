@@ -1,0 +1,24 @@
+.grid {
+  margin:1em auto;
+  border-collapse:collapse
+}
+
+.grid td {
+  cursor:pointer;
+  width:30px; height:30px;
+  border:1px solid #ccc;
+  text-align:center;
+  font-family:sans-serif; font-size:13px
+}
+
+.grid td.rob {
+  background-color: orange;
+}
+
+.grid td.cop {
+  background-color: blue;
+}
+
+.grid td.copwin {
+  background-color: red;
+}
